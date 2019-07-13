@@ -1,0 +1,94 @@
+/*======== RESET ===== */
+* {margin:0; padding: 0; font-size: 100%; border: none;outline: none; font-weight: 300;
+    box-sizing: border-box; font-family: 'Roboto',sans-serif;}
+body{ background-color:black;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*===Cabeçalho/Menu===*/
+
+    .cabecalho{padding: 3% 4%;}
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: black;
+        display: block;
+        position:static;
+        text-align: center;
+        
+    }
+    .menu li {
+        padding: 0;
+        float: left;
+    }
+    .menu li a{
+        color:yellow; 
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border: none;
+        color: #f6f1ee;
+    }
+
+    /*======== Conteudo ===== */
+
+    .conteudo{
+        width: 100%;
+        float: left;
+        padding: 3% 4%;
+    }
+
+    .content {
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        /*Pra juntar as multiplas imagens*/
+        margin-bottom: -0.5%;
+    }
+
+    .inner{
+        padding: 1%;
+        text-align: center;
+    }
+    
+    .inner h2 {
+        font-size: 1.5em;
+        color: #FFEC2D;
+        font-weight: 700;
+    }
+    .inner h4{
+        font-size: 1.2em;
+        color: #FFF166;
+        margin-top: 2%;
+    }
+    .inner p {
+        margin-top:2%;
+        color: white;
+        line-height: 1.5em;
+    }
+
+    /*FOOTER*/
+    .rodape{
+        width: 100%;
+        float: left;
+        padding: 3% 4%;
+        text-align: center;
+        background: black;
+    }
+    
+    .social-icons a{
+        font-size: 1.5em;
+        color:yellow;
+        margin-right: 3%;
+    }
+    .social-icons a:last-child{ margin-right: 0;} /* Isso tira a margem de 3% do ultimo icone */
+    .social-icons a:hover{
+        color: rgb(255,255,255);
+    }
+    .copy{
+        margin-top: 3%;
+        color:white;
+    }
