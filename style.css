@@ -92,3 +92,9 @@ ul{list-style: none;}
         margin-top: 3%;
         color:white;
     }
+
+    img {
+        max-width:100%;
+      }
+
+ 
